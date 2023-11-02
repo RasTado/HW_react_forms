@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.step-container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.step-container-app {
+  background-color: rgb(211, 229, 223);
+  padding: 5px;
+}
+
+.step-container-input {
+  display: flex;
+  align-items: flex-end;
+}
+
+input {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  height: 24px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+}
+
+label {
+  display: grid;
+  justify-items: center;
+  padding: 0 5px;
+  color: black;
+}
+
+.step-container-table {
+  margin-top: 20px;
+}
+
+span {
+  padding: 0 5px;
+  color: black;
+  width: 30%;
+  text-align: center;
+}
+
+.step-container-table-hd {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.step-container-table-body {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.step-container-table-body-el {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.material-icons {
+  padding-left: 10px;
+  cursor: pointer;
+}

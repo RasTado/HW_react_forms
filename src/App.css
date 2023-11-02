@@ -1,0 +1,20 @@
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.taskCont {
+  padding-left: 10px;
+  letter-spacing: 0px;
+  letter-spacing: 0.02rem;
+  font-size: 2rem;
+  text-shadow: 1px 1px 2px rgb(214, 76, 99);
+  text-transform: uppercase;
+}
+
+.taskContL {
+  padding: 0 15px;
+  color: azure;
+}
